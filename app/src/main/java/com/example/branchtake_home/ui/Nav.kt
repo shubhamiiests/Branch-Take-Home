@@ -1,5 +1,7 @@
 package com.example.branchtake_home.ui
 
+import android.os.Build
+import androidx.annotation.RequiresApi
 import androidx.compose.runtime.Composable
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.navigation.NavType
@@ -7,12 +9,12 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import androidx.navigation.navArgument
-import com.kukufm.branchsupport.ui.screens.ChatScreen
-import com.kukufm.branchsupport.ui.screens.LoginScreen
-import com.kukufm.branchsupport.ui.screens.ThreadsScreen
-import com.kukufm.branchsupport.ui.vm.AuthViewModel
-import com.kukufm.branchsupport.ui.vm.ChatViewModel
-import com.kukufm.branchsupport.ui.vm.ThreadsViewModel
+import com.example.branchtake_home.ViewModel.AuthViewModel
+import com.example.branchtake_home.ViewModel.ChatViewModel
+import com.example.branchtake_home.ViewModel.ThreadsViewModel
+import com.example.branchtake_home.ui.Screens.ChatScreen
+import com.example.branchtake_home.ui.Screens.LoginScreen
+import com.example.branchtake_home.ui.Screens.ThreadsScreen
 
 object Routes {
     const val LOGIN = "login"
@@ -20,6 +22,7 @@ object Routes {
     const val CHAT = "chat/{threadId}/{userId}"
 }
 
+@RequiresApi(Build.VERSION_CODES.O)
 @Composable
 fun AppNavHost() {
     val nav = rememberNavController()
