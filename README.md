@@ -44,24 +44,4 @@ This app allows customer service agents to log in, view customer message threads
 git clone <your-private-repo-url>
 cd BranchTakeHome
 
-### 🧩 3️⃣ Open in Android Studio
-
-1. Open **Android Studio** → select **“Open Project”** → choose this folder.  
-2. Wait for **Gradle Sync** to complete.  
-3. If prompted, install the **Android SDK Platform 36** and **Build Tools 36.x**.  
-4. Make sure your JDK version is set to **17 or higher** (File → Settings → Build Tools → Gradle → JDK).  
-
-### ▶️ 4️⃣ Run the App
-
-1. Click **Run ▶️** or press **Shift + F10** to build and launch the app.  
-2. On the **Login Screen**, enter your real email address.  
-3. The **password** should be **your email reversed**.  
-
-**Example:**  
-| Field | Value |
-|--------|--------|
-| Email | `john@example.com` |
-| Password | `moc.elpmaxe@nhoj` |
-
-> 🔒 **Note:** The app uses your email only to simulate login with the Branch test API — no personal data is stored.
 
