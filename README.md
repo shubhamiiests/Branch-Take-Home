@@ -43,3 +43,13 @@ This app allows customer service agents to log in, view customer message threads
 ```bash
 git clone <your-private-repo-url>
 cd BranchTakeHome
+
+### 3️⃣ Open in Android Studio
+Open the folder → Wait for Gradle sync
+If prompted, install API Level 36 platform
+
+### 4️⃣ Run the app
+Use your real email address to log in
+Password = your email reversed
+Example: Email: john@example.com  
+Password: moc.elpmaxe@nhoj
