@@ -43,14 +43,13 @@ This app allows customer service agents to log in, view customer message threads
 ```bash
 git clone <your-private-repo-url>
 cd BranchTakeHome
+
 ### 🧩 3️⃣ Open in Android Studio
 
 1. Open **Android Studio** → select **“Open Project”** → choose this folder.  
 2. Wait for **Gradle Sync** to complete.  
 3. If prompted, install the **Android SDK Platform 36** and **Build Tools 36.x**.  
 4. Make sure your JDK version is set to **17 or higher** (File → Settings → Build Tools → Gradle → JDK).  
-
----
 
 ### ▶️ 4️⃣ Run the App
 
